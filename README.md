@@ -1,6 +1,8 @@
 # pcd8544-sample-app
 
-Minimal Zephyr app that prints "hello world" to a PCD8544 (Nokia 5110) display.
+Minimal Zephyr app that prints "hello world" to a PCD8544 (Nokia 5110) display. 
+
+Created solely to test https://github.com/zephyrproject-rtos/zephyr/pull/120029
 
 ## Wiring assumption
 
