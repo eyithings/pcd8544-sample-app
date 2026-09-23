@@ -18,6 +18,10 @@ int main(void)
 	uint8_t font_height;
 
 	cfb_framebuffer_init(dev);
+
+	/* MONO10 is white text on black; MONO01 is black on white */
+	cfb_framebuffer_invert(dev);
+
 	cfb_framebuffer_clear(dev, true);
 	display_blanking_off(dev);
 	cfb_get_font_size(dev, 0, NULL, &font_height);
